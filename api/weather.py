@@ -44,4 +44,4 @@ except:
 
 data = r.json()
 
-print(u'Temperature for {0}, {1}: {2}\u2103C'.format(data['name'], data['sys']['country'], data['main']['temp']))
+print(u'Temperature for {0}, {1}: {2}\u2103'.format(data['name'], data['sys']['country'], data['main']['temp']))
