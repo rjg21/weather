@@ -5,8 +5,8 @@ Usage:
   weather [--country=COUNTRY] <city>
 
 Options:
-  -h, --help          Show a brief usage summary.
-  --country=COUNTRY Restrict cities to an ISO 3166 country code.
+  -h, --help         Show a brief usage summary.
+  --country=COUNTRY  Restrict cities to an ISO 3166 country code.
 
 An OpenWeatherMap API key MUST be provided via the OPENWEATHERMAP_KEY environment variable.
 """
