@@ -47,4 +47,4 @@ if __name__ == '__main__':
         print('Error: failed to get response from openweathermap for', city, '['+str(r.status_code)+']')
         exit(r.status_code)
 
-    print('Temperature for {0}, {1}: {2}\u2103'.format(data['name'], data['sys']['country'], data['main']['temp']))
+    print('Temperature for {0}, {1}: {2:.1f}\u2103'.format(data['name'], data['sys']['country'], data['main']['temp']))
