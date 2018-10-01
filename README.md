@@ -2,11 +2,13 @@
 
 ### Usage:
 
-`docker run --rm -e OPENWEATHERMAP_KEY={key} rjg21/weather {location}`
+```
+docker run --rm -e OPENWEATHERMAP_KEY=<key> rjg21/weather [--country=<country>] <city>
 
-where:
-> {key} = Your OpenWeatherMap API Key\
-> {location} = Location to be passed to API (e.g. london, "new york", etc)
+  <key>      Your OpenWeatherMap API Key
+  <city>     Location to be passed to API (e.g. london, "new york", etc)
+  <country>  Optionally, restrict cities to an ISO 3166 country code
+```
 
 ### Obtaining OpenWeatherMap API Key
 
